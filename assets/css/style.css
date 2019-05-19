@@ -31,9 +31,13 @@
       font-size: 28px;
   }
   nav {
+      float: bottom;
+      text-decoration: none;
       font-family: 'Arial';
-      font-size: 12px;
+      font-size: 22px;
       color: #777777;
+      margin: auto;
+      margin-top: 10px;
   }
   #content {
       background-color: #ffffff;
@@ -58,7 +62,7 @@
   p {
       text-align: left;
       font-family: 'Arial';
-      font-size: 12px;
+      font-size: 16px;
       color: #777777;
   }
   button {
@@ -90,4 +94,17 @@
       border-style: solid none none none;
       border-top-color: #4aaaa5;
       border-width: 8px;
+      width: 100%;
+      margin-top: 40px;
+  }
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+  li {
+      display: inline;
+      margin: 20px;
+      color: #777777;
+      text-decoration: none;
   }
